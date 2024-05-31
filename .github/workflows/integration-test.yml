@@ -2,10 +2,10 @@ name: Integration Testing
 on:
   push:
     branches:
-      - 2021.x
+      - 2021.6-integration
   pull_request:
     branches:
-      - 2021.x
+      - 2021.6-integration
 jobs:
   deploy-docker-image:
     runs-on: ubuntu-latest
