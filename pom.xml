@@ -8,7 +8,7 @@
     <parent>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-build</artifactId>
-        <version>3.1.9</version>
+        <version>3.1.1</version>
         <relativePath/>
     </parent>
 
@@ -80,10 +80,10 @@
 
     <properties>
         <!-- Project revision -->
-        <revision>2021.0.6.0</revision>
+        <revision>2021.0.1.0</revision>
 
         <!-- Spring Cloud -->
-        <spring.cloud.version>2021.0.9</spring.cloud.version>
+        <spring.cloud.version>2021.0.1</spring.cloud.version>
 
         <spring-boot.version>2.7.2</spring-boot.version>
 
@@ -150,6 +150,12 @@
                 <groupId>org.apache.rocketmq</groupId>
                 <artifactId>rocketmq-acl</artifactId>
                 <version>${rocketmq.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>2.16.0</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
